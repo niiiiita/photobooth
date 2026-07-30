@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gown Ceremony Photobooth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎓 Gown Ceremony Photobooth</h1>
+
+<p>Take your memories here ✨</p>
+
+<video id="camera" autoplay playsinline></video>
+
+<h2 id="countdown"></h2>
+<label for="theme">Choose Theme</label>
+
+<select id="theme">
+    <option value="gown">🎓 Gown Ceremony</option>
+</select>
+
+<button id="startBtn">
+Start Photobooth 📸
+</button>
+
+<canvas id="canvas" style="display:none;"></canvas>
+
+<img id="photo" alt="Your photo">
+<div id="gallery"></div>
+
+<button id="downloadBtn" style="display:none;">
+
+    Download Photo Strip 💾
+
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
